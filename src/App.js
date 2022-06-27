@@ -10,10 +10,28 @@ export default function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
-          <Dictionary defaultKeyword="food"/>
+          <Dictionary defaultKeyword="food" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Sami Mogaji</small>
+          <small>
+            Coded by Sami Mogaji, open sourced on{" "}
+            <a
+              href="https://github.com/Samitola/dictionary-project"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>{" "}
+            and hosted on
+            <a
+              href="https://app.netlify.com/sites/musical-smakager-975188/deploys"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              Netlify
+            </a>
+          </small>
         </footer>
       </div>
     </div>

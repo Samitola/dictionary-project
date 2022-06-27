@@ -13,7 +13,7 @@
   font-size: 12px;
 }
 .Phonetic a:hover {
-  background: red;
+  background: rgb(53, 10, 10);
   color: whitesmoke;
 }
 .Phonetic .text {

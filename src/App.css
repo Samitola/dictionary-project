@@ -1,9 +1,9 @@
 body {
-  background: grey;
+  background: rgb(253, 247, 229);
 }
 
 a {
-  color: red;
+  color: rgb(243, 47, 47);
 }
 
 .App {
@@ -23,4 +23,7 @@ a {
 .App-footer {
   text-align: center;
   margin: 30px 0;
+}
+.App-footer a {
+  text-decoration: none;
 }
